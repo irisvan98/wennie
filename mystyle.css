@@ -1,0 +1,176 @@
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 0;
+    padding: 0;
+    text-align: center;
+    background-image:url('tumblr_o9uwyffn3f1t6limbo1_540.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+    
+}
+h2 {
+    font-family: 'Grandstander', cursive;
+}
+a{
+    font-family: 'Grandstander', cursive;
+}
+footer {
+    font-family: 'Grandstander', cursive;
+    color: black;
+    text-align: center;
+}
+p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color:black;
+}
+address {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    color: black
+}
+
+/* box around h1 */
+
+.header {
+    background-color: #A8BAD9;
+    padding: 1pt 0;
+    margin: 25px 35%;
+}
+
+
+/* padding below each box's title */
+
+#container-title {
+    padding-bottom: 20px;
+}
+
+
+/* aligning the top row with 3 columns */
+
+.row-ign-twitch-misc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* sizing for the left and right top columns */
+
+.top-columns {
+    background-color: #A8BAD9;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 25px 1%;
+    text-align: center;
+}
+
+
+/* sizing for the middle top column thats bigger than the other two */
+
+.top-columns-middle {
+    background-color: #A8BAD9;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 25px 5%;
+    text-align: center;
+}
+
+
+/* box for game ign */
+
+#ign-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* box for twitch video */
+
+#video-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* box for misc */
+
+#misc-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* aligning the bottow row with 2 columns */
+
+.row-social-emotes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* sizing for the bottom two columns */
+
+.bottom-columns {
+    background-color: #A8BAD9;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 25px 5%;
+    text-align: center;
+}
+
+
+/* aligning the group of all the images */
+
+#emotes-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* sizing for each image */
+
+#emote-img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+
+/* text settings and aligning the social links */
+
+#social-links-container a {
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
